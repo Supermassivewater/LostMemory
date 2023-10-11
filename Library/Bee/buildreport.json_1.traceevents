@@ -1,0 +1,654 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1696541970527779, "dur": 875003, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1696541970527805, "dur": 9590, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1696541970537399, "dur": 854702, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1696541971392104, "dur": 10677, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1696541971404017, "dur": 21, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1696541970663790, "dur":5543, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1696541970669359, "dur":297, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1696541970669710, "dur":50, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1696541970669760, "dur":379, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1696541970670194, "dur":1438, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1696541970671632, "dur":3, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1696541971348111, "dur":8, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1696541971348119, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1696541971348136, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1696541971348140, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1696541971348150, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1696541971348154, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1696541971348167, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1696541971348170, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1696541971348181, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1696541971348206, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1696541971348243, "dur":5604, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1696541970671749, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970671751, "dur":7428, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970679207, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1696541970679213, "dur":161, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970679383, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1696541970679387, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970679492, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970681813, "dur":6580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1696541970688401, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1696541970688445, "dur":574, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970689036, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970692969, "dur":3536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1696541970696544, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1696541970696578, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970696667, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970696683, "dur":5462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1696541970702196, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1696541970702228, "dur":137, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970702374, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970702572, "dur":2457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1696541970705060, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1696541970705091, "dur":124, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970705223, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970706285, "dur":2202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1696541970708531, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1696541970708585, "dur":440, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970709091, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970709109, "dur":3531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1696541970712671, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541970712720, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970712815, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970713237, "dur":3823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541970717093, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1696541970717134, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970717217, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970717224, "dur":158248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1696541970875512, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541970875614, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970875712, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970876084, "dur":2255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541970878434, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541970878535, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970878615, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970878800, "dur":2388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541970881282, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541970881386, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970881475, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970881488, "dur":2598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541970884187, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541970884293, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970884391, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970884405, "dur":2628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541970887136, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541970887243, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970887345, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970887357, "dur":3081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541970890528, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541970890684, "dur":186, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970890884, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970890900, "dur":3383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541970894374, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541970894476, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970894569, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970894629, "dur":2395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541970897113, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541970897216, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970897303, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970897315, "dur":10816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541970908222, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541970908326, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970908422, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970908434, "dur":2849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541970911385, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541970911504, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970911608, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970911621, "dur":2834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541970914559, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541970914689, "dur":127, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970914896, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970914911, "dur":9019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541970924046, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541970924147, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970924412, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970924425, "dur":7066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541970931585, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541970931677, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970931765, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970931778, "dur":3961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541970935849, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541970935966, "dur":260, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970936235, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970936247, "dur":2638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541970938988, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541970939088, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970939195, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970939209, "dur":2642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541970941938, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541970942037, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970942120, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970942136, "dur":3245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541970945491, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541970945614, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970945790, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970945804, "dur":3352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541970949363, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541970949468, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970949577, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970949590, "dur":2998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541970952673, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541970952773, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970952875, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970952887, "dur":3194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541970956214, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541970956333, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970956437, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970956565, "dur":2080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541970958748, "dur":224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541970958973, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970959074, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970959086, "dur":2345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541970961536, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541970961638, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970961738, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970961751, "dur":3436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541970965288, "dur":1041, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541970966330, "dur":176, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970966518, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970966532, "dur":2238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541970968862, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541970968951, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970969038, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970969052, "dur":2370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541970971511, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541970971611, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970971699, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970971711, "dur":2434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541970974240, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541970974346, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970974454, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970974468, "dur":2094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541970976657, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541970976773, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970976934, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970976947, "dur":2881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541970979936, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541970980049, "dur":119, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970980177, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970980192, "dur":2088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541970982501, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541970982613, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970982738, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970982752, "dur":2993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541970985866, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541970986011, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970986130, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970986144, "dur":2935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541970989164, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541970989264, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970989351, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970989363, "dur":2251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541970991742, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541970991843, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970991951, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970991964, "dur":2921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541970995106, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541970995209, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970995313, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970995326, "dur":3253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541970998679, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541970998779, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970998887, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541970998900, "dur":2138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971001239, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971001341, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971001445, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971001457, "dur":2608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971004170, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971004271, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971004391, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971004405, "dur":2305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971006807, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971006900, "dur":207, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971007117, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971007129, "dur":3044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971010269, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971010377, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971010491, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971010505, "dur":2792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971013401, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971013507, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971013613, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971013625, "dur":3070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971016782, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971016867, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971016953, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971016965, "dur":2246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971019300, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971019385, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971019471, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971019484, "dur":2384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971021975, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971022076, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971022181, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971022195, "dur":3269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971025570, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971025672, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971025772, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971025785, "dur":2347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971028234, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971028336, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971028440, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971028453, "dur":2746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971031293, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971031400, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971031500, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971031513, "dur":3039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971034655, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971034768, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971034892, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971034906, "dur":2174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971037185, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971037289, "dur":225, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971037524, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971037535, "dur":2673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971040314, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971040411, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971040508, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971040522, "dur":1838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971042453, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971042545, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971042638, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971042650, "dur":2354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971045098, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971045194, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971045288, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971045301, "dur":2807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971048220, "dur":262, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971048483, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971048599, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971048613, "dur":2806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971051515, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971051609, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971051707, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971051719, "dur":1906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971053721, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971053826, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971053925, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971053938, "dur":2677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971056716, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971056842, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971056967, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971056982, "dur":3318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971060395, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971060487, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971060589, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971060602, "dur":2797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971063494, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971063596, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971063689, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971063702, "dur":3374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971067184, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971067304, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971067418, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971067433, "dur":2829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971070356, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971070476, "dur":138, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971070628, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971070643, "dur":2680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971073424, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971073536, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971073643, "dur":13, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971073668, "dur":3191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971076956, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971077066, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971077167, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971077181, "dur":2537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971079955, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971080060, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971080189, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971080203, "dur":3104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971083405, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971083496, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971083592, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971083605, "dur":2726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971086444, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971086549, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971086656, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971086670, "dur":3002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971089775, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971089885, "dur":497, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971090397, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971090413, "dur":2509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971093071, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971093190, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971093306, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971093320, "dur":3368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971096791, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971096902, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971097023, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971097037, "dur":3909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971101071, "dur":1413, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971102485, "dur":153, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971102651, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971102666, "dur":2923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971105699, "dur":532, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971106232, "dur":448, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971106694, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971106710, "dur":2485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971109289, "dur":320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971109610, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971109720, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971109733, "dur":2626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971112497, "dur":364, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971112862, "dur":127, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971113002, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971113018, "dur":2790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971116141, "dur":610, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971116752, "dur":131, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971116896, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971116912, "dur":2342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971119354, "dur":278, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971119633, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971119729, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971119777, "dur":2695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971122573, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971122685, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971122777, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971122790, "dur":2012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971124912, "dur":1245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971126158, "dur":177, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971126348, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971126362, "dur":3234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971129701, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971129807, "dur":2023, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971131912, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971131929, "dur":20776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971152823, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971152925, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971153051, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971153065, "dur":9318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971162473, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971162577, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971162705, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971162741, "dur":3360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971166204, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971166314, "dur":235, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971166559, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971166573, "dur":3237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971169920, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971170011, "dur":122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971170181, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971170199, "dur":6740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971177054, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971177151, "dur":119, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971177280, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971177295, "dur":12235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971189661, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971189782, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971189893, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971189949, "dur":4480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971194820, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971194930, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971195052, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971195066, "dur":4099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971199271, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971199367, "dur":548, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971199929, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971199946, "dur":4241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971204297, "dur":540, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971204839, "dur":157, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971205008, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971205027, "dur":2626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971207779, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971207890, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971208017, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971209607, "dur":2071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696541971211931, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":1, "ts":1696541971212066, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971212081, "dur":2428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":1, "ts":1696541971214616, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1696541971214738, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971214750, "dur":18290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1696541971233142, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1696541971233253, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971233266, "dur":2465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1696541971235841, "dur":335, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1696541971236177, "dur":126, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971236318, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971236390, "dur":5881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1696541971242419, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1696541971242534, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971242548, "dur":10387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1696541971253031, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/level3.resS" }}
+,{ "pid":12345, "tid":1, "ts":1696541971253138, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971253147, "dur":8081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/level3.resS" }}
+,{ "pid":12345, "tid":1, "ts":1696541971261541, "dur":3158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/level3" }}
+,{ "pid":12345, "tid":1, "ts":1696541971264707, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971264716, "dur":3722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/level3" }}
+,{ "pid":12345, "tid":1, "ts":1696541971268560, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1696541971268673, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971268686, "dur":3115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1696541971271903, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1696541971272017, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696541971272028, "dur":75591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1696541971347737, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1696541971347740, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696541970671754, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696541970671755, "dur":7756, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696541970679511, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1696541970679587, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696541970679674, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696541970693594, "dur":6230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1696541970699934, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1696541970700046, "dur":5172, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696541970705226, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696541970705239, "dur":6381, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1696541970711774, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1696541970711808, "dur":3609, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696541970715434, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696541970715472, "dur":5247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1696541970720763, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity.exe" }}
+,{ "pid":12345, "tid":2, "ts":1696541970720875, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696541970720974, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696541970720985, "dur":3383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity.exe" }}
+,{ "pid":12345, "tid":2, "ts":1696541970724464, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1696541970724511, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696541970724620, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696541970725144, "dur":361089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1696541971086281, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1696541971086397, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696541971086513, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696541971086526, "dur":2309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1696541971089018, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1696541971089153, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696541971089269, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696541971089282, "dur":3628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1696541971093040, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1696541971093154, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696541971093276, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696541971093292, "dur":3732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1696541971097141, "dur":377, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1696541971097519, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696541971097637, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696541971097651, "dur":3039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1696541971100902, "dur":1180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1696541971102083, "dur":128, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696541971102224, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696541971102282, "dur":2766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1696541971105170, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1696541971105292, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696541971105417, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696541971105431, "dur":2793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1696541971108331, "dur":974, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1696541971109306, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696541971109434, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696541971109448, "dur":2711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1696541971112268, "dur":1547, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1696541971113816, "dur":394, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696541971114224, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696541971114239, "dur":3395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1696541971117738, "dur":1010, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1696541971118749, "dur":152, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696541971118915, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696541971118940, "dur":3093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1696541971122143, "dur":1659, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1696541971123803, "dur":145, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696541971123959, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696541971123973, "dur":2876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1696541971126964, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1696541971127069, "dur":234, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696541971127313, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696541971127326, "dur":4248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1696541971131689, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1696541971131784, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696541971131916, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696541971131931, "dur":3615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1696541971135645, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1696541971135739, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696541971135851, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696541971135864, "dur":11275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1696541971147244, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1696541971147351, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696541971147458, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696541971147473, "dur":7750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1696541971155323, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1696541971155438, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696541971155541, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696541971155554, "dur":2069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1696541971157736, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1696541971157867, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696541971157966, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696541971157979, "dur":6424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1696541971164503, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1696541971164602, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696541971164713, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696541971164726, "dur":2565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1696541971167416, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1696541971167516, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696541971167612, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696541971167625, "dur":5085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1696541971172802, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1696541971172907, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696541971173000, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696541971173013, "dur":5924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1696541971179072, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1696541971179169, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696541971179272, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696541971179295, "dur":9983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1696541971189407, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1696541971189525, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696541971189628, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696541971189653, "dur":6091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1696541971195851, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1696541971195952, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696541971196052, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696541971196065, "dur":2171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1696541971198339, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1696541971198432, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696541971198531, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696541971198544, "dur":11315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1696541971209958, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1696541971210080, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696541971210219, "dur":4722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1696541971215067, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":2, "ts":1696541971215202, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696541971215214, "dur":7271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":2, "ts":1696541971222636, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":2, "ts":1696541971222806, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696541971222820, "dur":11165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":2, "ts":1696541971234114, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1696541971234240, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696541971234253, "dur":4585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1696541971238989, "dur":4541, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1696541971243532, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696541971243657, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696541971243672, "dur":8880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1696541971252660, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1696541971252791, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696541971252805, "dur":10441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1696541971263384, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/level2.resS" }}
+,{ "pid":12345, "tid":2, "ts":1696541971263520, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696541971263581, "dur":2969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/level2.resS" }}
+,{ "pid":12345, "tid":2, "ts":1696541971266719, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/level1.resS" }}
+,{ "pid":12345, "tid":2, "ts":1696541971266867, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696541971266881, "dur":12703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/level1.resS" }}
+,{ "pid":12345, "tid":2, "ts":1696541971279711, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1696541971279835, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696541971279849, "dur":15831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1696541971295797, "dur":321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1696541971296119, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696541971296234, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696541971296253, "dur":32316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1696541971328693, "dur":19296, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1696541970672036, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1696541970672036, "dur":7152, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1696541970679207, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1696541970679274, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1696541970679384, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1696541970695356, "dur":9191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1696541970704599, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1696541970704647, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1696541970704776, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1696541970704794, "dur":3273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1696541970708098, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1696541970708128, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1696541970708214, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1696541970708225, "dur":3161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1696541970711418, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1696541970711451, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1696541970711539, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1696541970711550, "dur":2293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1696541970713942, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1696541970713989, "dur":158, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1696541970714160, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1696541970714338, "dur":502947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1696541971217327, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1696541971217485, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1696541971217498, "dur":7864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1696541971225472, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1696541971225571, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1696541971225584, "dur":38282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1696541971263983, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1696541971264125, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1696541971264138, "dur":2736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1696541971266989, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1696541971267095, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1696541971267107, "dur":3815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1696541971271197, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1696541971271310, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1696541971271322, "dur":8224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1696541971279693, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1696541971279822, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1696541971279835, "dur":47329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/JuegoUnity_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1696541971327266, "dur":20800, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696541970672125, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696541970672125, "dur":7059, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696541970679208, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1696541970679370, "dur":167, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696541970679550, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696541970686148, "dur":4847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1696541970691064, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1696541970691107, "dur":1900, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696541970693023, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696541970693042, "dur":4086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1696541970697167, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1696541970697202, "dur":356, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696541970697568, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696541970702315, "dur":2242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1696541970704603, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1696541970704640, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696541970704774, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696541970704793, "dur":2735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1696541970707570, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1696541970707621, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696541970707713, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696541970707870, "dur":2679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1696541970710587, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1696541970710622, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696541970710721, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696541970710736, "dur":5941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1696541970716735, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Stark/Desktop/LostMemory alpha 0.02/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696541970716783, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696541970716875, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696541970716885, "dur":611099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Stark/Desktop/LostMemory alpha 0.02/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696541971328023, "dur":20006, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1696541971368747, "dur":5808, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1696541971404255, "dur": 21877, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1696541971403997, "dur": 22244, "ph": "X", "name": "Write chrome-trace events", "args": {} },
