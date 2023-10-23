@@ -1,7 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/* Controla la cámara en primera persona. Permite al jugador mover la vista con el mouse y ajusta la rotación de la cámara en función de los movimientos del jugador.
+ Se utiliza para dar al jugador la sensación de control de la vista. Este script se adjunta a la cámara del jugador.*/
 public class camara : MonoBehaviour
 {
     public float sensitive = 10f;

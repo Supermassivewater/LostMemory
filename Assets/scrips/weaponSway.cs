@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/* Agrega un efecto de balanceo a las armas del jugador para dar una sensación de realismo. 
+El arma se inclina ligeramente en respuesta a los movimientos del mouse, lo que simula el movimiento natural del arma al apuntar. Este script se adjunta al arma del jugador.*/
 public class weaponSway : MonoBehaviour
 {
     private Quaternion startRotation;

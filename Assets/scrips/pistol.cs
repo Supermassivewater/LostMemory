@@ -1,7 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/* Controla la animación y disparo de una pistola. Permite al jugador apuntar y disparar su arma. Al presionar el botón derecho del ratón,
+ activa la animación de apuntar, y al soltarlo, activa la animación inversa. Este script se adjunta al arma del jugador.*/
 public class pistol : MonoBehaviour
 {
 

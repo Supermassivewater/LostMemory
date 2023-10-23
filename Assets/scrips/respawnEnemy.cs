@@ -1,18 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/* Genera enemigos de manera periÃ³dica en diferentes puntos de spawn. Utiliza un prefab de enemigo y una matriz de puntos de spawn para generarlos. 
+El script determina cuÃ¡ndo se generan nuevos enemigos en funciÃ³n del tiempo. Se utiliza para mantener un flujo constante de enemigos en el juego.*/
 public class respawnEnemy : MonoBehaviour
 {
     public GameObject enemyPrefab; // Prefab del enemigo que quieres generar
-    public Transform[] spawnPoints; // Puntos donde se generarán los enemigos
+    public Transform[] spawnPoints; // Puntos donde se generarï¿½n los enemigos
     public float spawnRate = 5f; // Tiempo en segundos entre spawns
 
     private float nextSpawnTime;
 
     void Start()
     {
-        nextSpawnTime = Time.time; // Inicializa el tiempo del próximo spawn
+        nextSpawnTime = Time.time; // Inicializa el tiempo del prï¿½ximo spawn
     }
 
     void Update()
@@ -20,7 +21,7 @@ public class respawnEnemy : MonoBehaviour
         if (Time.time >= nextSpawnTime)
         {
             SpawnEnemy();
-            nextSpawnTime = Time.time + spawnRate; // Establece el próximo tiempo de spawn
+            nextSpawnTime = Time.time + spawnRate; // Establece el prï¿½ximo tiempo de spawn
         }
     }
 

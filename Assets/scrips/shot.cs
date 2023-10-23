@@ -2,7 +2,8 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 using TMPro;
-
+/* Controla el disparo de balas desde un arma. Administra la cantidad de balas en el cargador, el tiempo de espera entre disparos y la recarga. 
+Además, muestra la cantidad de balas restantes en una interfaz gráfica. Este script se adjunta al arma del jugador.*/
 public class shot : MonoBehaviour
 {
     // Referencias a otros objetos y componentes

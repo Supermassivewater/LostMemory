@@ -2,7 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
-
+/* Maneja el movimiento del jugador. Permite al jugador moverse hacia adelante, atrás, izquierda y derecha, saltar y ajustar la velocidad de movimiento al presionar la tecla Shift. 
+También maneja la gravedad y la detección de colisiones con el suelo. Este script se adjunta al objeto del jugador.*/
 public class movment : MonoBehaviour
 {
     public CharacterController characterController;
