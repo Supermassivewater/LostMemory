@@ -3,6 +3,8 @@ Library\Bee\artifacts\mvdfrm\Unity.Burst.ref.dll_F30DFA20C0DD1968.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Mathematics.Editor.ref.dll_9A20CFD48BC11F43.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Mathematics.ref.dll_E8EFDB1B8D5C174E.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.PlasticSCM.Editor.ref.dll_257AEB342BE77856.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Postprocessing.Editor.ref.dll_1C9CD17610FFA3F0.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Postprocessing.Runtime.ref.dll_3152B6A9836FBF3B.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.RenderPipeline.Universal.ShaderLibrary.ref.dll_5436F99F8BDCED8B.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.RenderPipelines.Core.Editor.ref.dll_46EB9B6930B27991.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.RenderPipelines.Core.Runtime.ref.dll_CE6A42C97D96EB0A.mvfrm
@@ -112,4 +114,4 @@ Library\Bee\artifacts\mvdfrm\UnityEngine.VirtualTexturingModule.dll_E604DBD9AAEE
 Library\Bee\artifacts\mvdfrm\UnityEngine.VRModule.dll_4C5355518D815EBD.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEngine.WindModule.dll_ADC6118C928A7979.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEngine.XRModule.dll_7F12185616BBAC1B.mvfrm
-Library\Bee\artifacts\mvdfrm\Unity.VisualScripting.Antlr3.Runtime.dll_669E0B313F501695.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.VisualScripting.Antlr3.Runtime.dll_E1B934B3BE8F6B86.mvfrm

@@ -112,6 +112,7 @@
 -define:ENABLE_TIMELINE
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
+-define:UNITY_POST_PROCESSING_STACK_V2
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
@@ -318,13 +319,15 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.XDocument.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll"
--r:"C:/Users/User PC/Documents/JuegoUnity/Library/PackageCache/com.unity.visualscripting@1.9.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"C:/Users/User PC/Pictures/MemoriaPerdida/LostMemory/Library/PackageCache/com.unity.visualscripting@1.9.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/PPv2URPConverters.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Burst.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Burst.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Mathematics.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Mathematics.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Postprocessing.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Postprocessing.Runtime.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.RenderPipeline.Universal.ShaderLibrary.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.RenderPipelines.Core.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.RenderPipelines.Core.Runtime.ref.dll"
@@ -356,6 +359,8 @@
 "Assets/scrips/ai/AI.cs"
 "Assets/scrips/bala.cs"
 "Assets/scrips/camara.cs"
+"Assets/scrips/GUNS/camShake.cs"
+"Assets/scrips/GUNS/guns.cs"
 "Assets/scrips/movment.cs"
 "Assets/scrips/pistol.cs"
 "Assets/scrips/respawnEnemy.cs"
@@ -402,6 +407,14 @@
 "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs"
+"Assets/UnityTechnologies/EffectExamples/Shared/Scripts/DecalDestroyer.cs"
+"Assets/UnityTechnologies/EffectExamples/Shared/Scripts/ExtinguishableFire.cs"
+"Assets/UnityTechnologies/EffectExamples/Shared/Scripts/GunAim.cs"
+"Assets/UnityTechnologies/EffectExamples/Shared/Scripts/GunShoot.cs"
+"Assets/UnityTechnologies/EffectExamples/Shared/Scripts/ParticleCollision.cs"
+"Assets/UnityTechnologies/EffectExamples/Shared/Scripts/ParticleExamples.cs"
+"Assets/UnityTechnologies/EffectExamples/Shared/Scripts/ParticleMenu.cs"
+"Assets/UnityTechnologies/EffectExamples/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0
 
 /deterministic
