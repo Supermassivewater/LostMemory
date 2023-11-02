@@ -36,18 +36,27 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\scrips\ScriptsChris\ArrojarGranada.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
      <Compile Include="Assets\scrips\ScriptsChris\Carganding.cs" />
+     <Compile Include="Assets\ParticleProFX\PPFXWindow\PPFXWindow.cs" />
+     <Compile Include="Assets\Particle Ribbon by Moonflower Carnivore\Scripts\rotation.cs" />
      <Compile Include="Assets\scrips\pistol.cs" />
+     <Compile Include="Assets\ParticleProFX\PPFXWindow\PPFXRendererLayer.cs" />
+     <Compile Include="Assets\UnityTechnologies\EffectExamples\Shared\Scripts\DecalDestroyer.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
      <Compile Include="Assets\scrips\movment.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
+     <Compile Include="Assets\scrips\ScriptsChris\Granada.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
+     <Compile Include="Assets\ParticleProFX\Resources\Scripts\PPFXCountdownDestruct.cs" />
+     <Compile Include="Assets\ParticleProFX\DemoScene\Scripts\PPFXSpawnOnClick.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
+     <Compile Include="Assets\ParticleProFX\Resources\Scripts\PPFXScale.cs" />
      <Compile Include="Assets\scrips\weaponSway.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
@@ -56,66 +65,58 @@
      <Compile Include="Assets\scrips\ScriptsChris\CambiarEscena.cs" />
      <Compile Include="Assets\scrips\respawnEnemy.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
+     <Compile Include="Assets\ParticleProFX\Resources\Scripts\PPFXClickMove.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
+     <Compile Include="Assets\ParticleProFX\Resources\Scripts\PPFXClickMoveSmooth.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
      <Compile Include="Assets\scrips\camara.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
+     <Compile Include="Assets\Particle Ribbon by Moonflower Carnivore\Scripts\randomParticleRotation.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
      <Compile Include="Assets\Nokobot\Modern Guns - Handgun\_Demo Assets\SimpleShoot.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
+     <Compile Include="Assets\UnityTechnologies\EffectExamples\Shared\Scripts\ExtinguishableFire.cs" />
+     <Compile Include="Assets\UnityTechnologies\EffectExamples\Shared\Scripts\ParticleMenu.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
      <Compile Include="Assets\scrips\shot.cs" />
+     <Compile Include="Assets\ParticleProFX\Resources\Scripts\PPFXChainReaction.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
+     <Compile Include="Assets\ParticleProFX\Resources\Scripts\PPFXShockwave.cs" />
+     <Compile Include="Assets\ParticleProFX\Resources\Scripts\PPFXMeteor.cs" />
+     <Compile Include="Assets\UnityTechnologies\EffectExamples\TutorialInfo\Scripts\Readme.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
+     <Compile Include="Assets\UnityTechnologies\EffectExamples\Shared\Scripts\ParticleExamples.cs" />
      <Compile Include="Assets\scrips\ai\AI.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
+     <Compile Include="Assets\ParticleProFX\Resources\Scripts\PPFXChainReactionInspector.cs" />
+     <Compile Include="Assets\UnityTechnologies\EffectExamples\Shared\Scripts\ParticleCollision.cs" />
+     <Compile Include="Assets\ParticleProFX\Resources\Scripts\PPFXRigidBodyExtensions.cs" />
+     <Compile Include="Assets\UnityTechnologies\EffectExamples\Shared\Scripts\GunShoot.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
+     <Compile Include="Assets\ParticleProFX\DemoScene\Scripts\PPFXDemoScene.cs" />
      <Compile Include="Assets\scrips\ScriptsChris\Personaje.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
+     <Compile Include="Assets\ParticleProFX\Resources\Scripts\PPFXRandomPosition.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
+     <Compile Include="Assets\Particle Ribbon by Moonflower Carnivore\Scripts\ReverseNormals.cs" />
      <Compile Include="Assets\scrips\ScriptsChris\MiniMapa.cs" />
+     <Compile Include="Assets\ParticleProFX\Resources\Scripts\PPFXAutodestruct.cs" />
      <Compile Include="Assets\scrips\ScriptsChris\Salir.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
+     <Compile Include="Assets\ParticleProFX\Resources\Scripts\PPFXPhysicForce.cs" />
+     <Compile Include="Assets\ParticleProFX\Resources\Scripts\PPFXLightFlare.cs" />
      <Compile Include="Assets\scrips\ScriptsChris\Vidas.cs" />
      <Compile Include="Assets\scrips\ScriptsChris\Efectos.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
-     <Compile Include="Assets\Particle Ribbon by Moonflower Carnivore\Scripts\ReverseNormals.cs" />
-     <Compile Include="Assets\Particle Ribbon by Moonflower Carnivore\Scripts\randomParticleRotation.cs" />
-     <Compile Include="Assets\Particle Ribbon by Moonflower Carnivore\Scripts\rotation.cs" />
-     <Compile Include="Assets\scrips\ScriptsChris\Granada.cs" />
-     <Compile Include="Assets\UnityTechnologies\EffectExamples\TutorialInfo\Scripts\Readme.cs" />
-     <Compile Include="Assets\UnityTechnologies\EffectExamples\Shared\Scripts\ExtinguishableFire.cs" />
-     <Compile Include="Assets\UnityTechnologies\EffectExamples\Shared\Scripts\DecalDestroyer.cs" />
-     <Compile Include="Assets\UnityTechnologies\EffectExamples\Shared\Scripts\ParticleCollision.cs" />
-     <Compile Include="Assets\UnityTechnologies\EffectExamples\Shared\Scripts\GunShoot.cs" />
      <Compile Include="Assets\UnityTechnologies\EffectExamples\Shared\Scripts\GunAim.cs" />
-     <Compile Include="Assets\UnityTechnologies\EffectExamples\Shared\Scripts\ParticleExamples.cs" />
-     <Compile Include="Assets\UnityTechnologies\EffectExamples\Shared\Scripts\ParticleMenu.cs" />
-     <Compile Include="Assets\ParticleProFX\Resources\Scripts\PPFXAutodestruct.cs" />
-     <Compile Include="Assets\ParticleProFX\Resources\Scripts\PPFXShockwave.cs" />
-     <Compile Include="Assets\ParticleProFX\DemoScene\Scripts\PPFXSpawnOnClick.cs" />
-     <Compile Include="Assets\ParticleProFX\Resources\Scripts\PPFXChainReactionInspector.cs" />
-     <Compile Include="Assets\ParticleProFX\DemoScene\Scripts\PPFXDemoScene.cs" />
-     <Compile Include="Assets\ParticleProFX\Resources\Scripts\PPFXClickMoveSmooth.cs" />
-     <Compile Include="Assets\ParticleProFX\Resources\Scripts\PPFXPhysicForce.cs" />
-     <Compile Include="Assets\ParticleProFX\PPFXWindow\PPFXRendererLayer.cs" />
-     <Compile Include="Assets\ParticleProFX\Resources\Scripts\PPFXCountdownDestruct.cs" />
-     <Compile Include="Assets\ParticleProFX\Resources\Scripts\PPFXLightFlare.cs" />
-     <Compile Include="Assets\ParticleProFX\Resources\Scripts\PPFXRandomPosition.cs" />
-     <Compile Include="Assets\ParticleProFX\Resources\Scripts\PPFXRigidBodyExtensions.cs" />
-     <Compile Include="Assets\ParticleProFX\Resources\Scripts\PPFXChainReaction.cs" />
-     <Compile Include="Assets\ParticleProFX\Resources\Scripts\PPFXMeteor.cs" />
-     <Compile Include="Assets\ParticleProFX\PPFXWindow\PPFXWindow.cs" />
-     <Compile Include="Assets\ParticleProFX\Resources\Scripts\PPFXScale.cs" />
-     <Compile Include="Assets\ParticleProFX\Resources\Scripts\PPFXClickMove.cs" />
-     <Compile Include="Assets\scrips\ScriptsChris\ArrojarGranada.cs" />
+     <Compile Include="Assets\scrips\ScriptsChris\GranadaCongelante.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\Particle Ribbon by Moonflower Carnivore\readme_Simple_Particle_Ribbon.txt" />
@@ -813,8 +814,8 @@
     <Reference Include="Unity.RenderPipelines.Core.Runtime">
         <HintPath>C:\Users\rene-\Documents\Programación de Videojuegos\Juegazo\LostMemory\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Flow">
-        <HintPath>C:\Users\rene-\Documents\Programación de Videojuegos\Juegazo\LostMemory\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+    <Reference Include="Unity.Postprocessing.Editor">
+        <HintPath>C:\Users\rene-\Documents\Programación de Videojuegos\Juegazo\LostMemory\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
         <HintPath>C:\Users\rene-\Documents\Programación de Videojuegos\Juegazo\LostMemory\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
@@ -827,6 +828,9 @@
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
         <HintPath>C:\Users\rene-\Documents\Programación de Videojuegos\Juegazo\LostMemory\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow">
+        <HintPath>C:\Users\rene-\Documents\Programación de Videojuegos\Juegazo\LostMemory\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
         <HintPath>C:\Users\rene-\Documents\Programación de Videojuegos\Juegazo\LostMemory\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
@@ -842,6 +846,9 @@
     </Reference>
     <Reference Include="Unity.Burst">
         <HintPath>C:\Users\rene-\Documents\Programación de Videojuegos\Juegazo\LostMemory\Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Runtime">
+        <HintPath>C:\Users\rene-\Documents\Programación de Videojuegos\Juegazo\LostMemory\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Editor">
         <HintPath>C:\Users\rene-\Documents\Programación de Videojuegos\Juegazo\LostMemory\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
@@ -866,12 +873,6 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
         <HintPath>C:\Users\rene-\Documents\Programación de Videojuegos\Juegazo\LostMemory\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Postprocessing.Editor">
-        <HintPath>C:\Users\rene-\Documents\Programación de Videojuegos\Juegazo\LostMemory\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Postprocessing.Runtime">
-        <HintPath>C:\Users\rene-\Documents\Programación de Videojuegos\Juegazo\LostMemory\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 7600867077341134761}
   - component: {fileID: 6833209408138129420}
   - component: {fileID: 8732647393226310854}
-  - component: {fileID: 5515166326156529981}
   - component: {fileID: -2261427824407006580}
+  - component: {fileID: 6606479031762908042}
+  - component: {fileID: 9102691425756144588}
   m_Layer: 0
   m_Name: Granada Loca Particula
   m_TagString: Untagged
@@ -29,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 7075266037009179923}
   m_LocalRotation: {x: 0.5, y: 0.49999997, z: 0.5, w: -0.5}
   m_LocalPosition: {x: -548.93964, y: 2.557926, z: 10448.96}
-  m_LocalScale: {x: 181.08397, y: 78.99306, z: 181.08397}
+  m_LocalScale: {x: 19.67083, y: 8.580875, z: 19.67083}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5998029994002436306}
@@ -89,20 +90,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!136 &5515166326156529981
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7075266037009179923}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.010389366
-  m_Height: 0.024324574
-  m_Direction: 2
-  m_Center: {x: -0.00003514451, y: -0.00047650177, z: -0.0002379407}
 --- !u!54 &-2261427824407006580
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -119,6 +106,34 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &6606479031762908042
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7075266037009179923}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.028251268, y: 0.025318682, z: 0.02825127}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &9102691425756144588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7075266037009179923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a22530387661f8344908c3dfd4af19ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionRadius: 10
+  detonationTime: 1.5
+  explosionEffect: {fileID: 100010, guid: 50c6dc24fab475744a6bc7e1dda3d427, type: 3}
 --- !u!1001 &5998029994002027198
 PrefabInstance:
   m_ObjectHideFlags: 0
